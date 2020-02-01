@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignUp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10pt">
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            app:srcCompat="@drawable/logoooo"
+            android:contentDescription="@string/todo" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <EditText
+            android:id="@+id/et_first_name"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/btn_register"
+            style="@style/viewCustom"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/create_act"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5pt"
+                android:text="@string/have_a_account"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvLogIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5pt"
+                android:text="@string/log_in"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10pt">
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            app:srcCompat="@drawable/logoooo"
+            android:contentDescription="@string/todo" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/etEmail"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/etPassword"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/viewCustom"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/login_title"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_forgot_password"
+            style="@style/viewCustom"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/forgot_password"
+            android:textSize="20sp"
+            android:focusable="true" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <Button
+            android:id="@+id/btn_register_account"
+            style="@style/viewCustom"
+            android:background="@color/colorPrimary"
+            android:text="@string/create_act"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

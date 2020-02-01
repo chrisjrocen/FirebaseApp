@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1019287224315",
+    "firebase_url": "https://fir-4u-2080c.firebaseio.com",
+    "project_id": "fir-4u-2080c",
+    "storage_bucket": "fir-4u-2080c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019287224315:android:425476d3773fe3d6e8555e",
+        "android_client_info": {
+          "package_name": "com.example.firebase4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019287224315-sr71k52nugidrfichl65t0fpf5msn6si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOS1LGJe_CVPQHu2a-bvSyTXkthowrN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019287224315-sr71k52nugidrfichl65t0fpf5msn6si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
